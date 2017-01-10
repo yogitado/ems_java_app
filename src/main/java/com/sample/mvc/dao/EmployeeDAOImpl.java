@@ -26,6 +26,12 @@ public class EmployeeDAOImpl implements EmployeeDAO{
         if (null != employee) {
             this.sessionFactory.getCurrentSession().delete(employee);
         }
+		if (null != employee) {
+            this.sessionFactory.getCurrentSession().delete(employee);
+        }
+		if (null != employee) {
+            this.sessionFactory.getCurrentSession().delete(employee);
+        }
 	}
 	
 	public List<EmployeeCommand> listContact() {
@@ -42,6 +48,8 @@ public class EmployeeDAOImpl implements EmployeeDAO{
 		this.sessionFactory.getCurrentSession().update(employeeCommand);
 	}
 
-	
+	public void updateEmployee(EmployeeCommand employeeCommand) {
+		this.sessionFactory.getCurrentSession().update(employeeCommand);
+	}
 
 }

@@ -37,6 +37,8 @@ public class EmployeeCommand {
 		return code;
 	}
 
+
+
 	public void setCode(int code) {
 		this.code = code;
 	}
@@ -49,6 +51,27 @@ public class EmployeeCommand {
 		this.city = city;
 	}
 	
+	public void setCity(String city) {
+		this.city = city;
+	}
+	public void setCity(String city) {
+		this.city = city;
+	}
+	public void setCity(String city) {
+		this.city = city;
+	}
+	public void setCity(String city) {
+		this.city = city;
+	}
+	public void setCity(String city) {
+		this.city = city;
+	}
+	public void setCity(String city) {
+		this.city = city;
+	}
+	public void setCity(String city) {
+		this.city = city;
+	}
 	
 
 }

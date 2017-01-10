@@ -38,7 +38,12 @@ public class EmployeeController {
 		
 	    return "list";
 	}
-	
+	{
+	    map.put("contact", new EmployeeCommand());
+	    map.put("contactList", employeeService.listContact());
+		
+	    return "list";
+	}
 	// add employee controller 
 	@RequestMapping(value = "/add", method = RequestMethod.POST)
 	public ModelAndView addEmployee(
